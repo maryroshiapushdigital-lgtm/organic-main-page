@@ -2458,7 +2458,7 @@ gap: calc(15px * var(--oh-scale));
   }
 
   .oh-foot__tag {
-    max-width: none !important;
+    max-width: 266px !important;
     margin: 0 auto;
    font-size: 11px;
   }
