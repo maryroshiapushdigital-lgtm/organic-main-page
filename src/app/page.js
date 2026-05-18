@@ -211,7 +211,7 @@ function Home() {
               <span className="oh-eyebrow__text">two worlds, one heritage</span>
             </div>
 
-            <h2 className="oh-h2">Organic Heritage Grains</h2>
+            <h2 className="oh-h2" id='org-h2'>Organic Heritage Grains</h2>
 
             <p className="oh-split__lede">
               Discover the richness of ancient nutrition. Our grains are sourced from 
