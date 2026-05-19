@@ -201,7 +201,7 @@ function Home() {
       {/* ============ GRAINS SECTION (image left, content right) ============ */}
       <section className="oh-split oh-split--grains" id="grains">
         <div className="oh-split__container">
-          <div className="oh-split__media oh-split__media--left">
+          <div className="oh-split__media oh-split__media--left"id='left'>
             <div className="oh-split__mediaInner oh-split__mediaInner--grains" />
           </div>
 
@@ -238,9 +238,9 @@ function Home() {
       <section className="oh-split oh-split--cosmetics" id="cosmetics">
         <div className="oh-split__container">
           <div className="oh-split__content oh-split__content--left">
-            <h2 className="oh-h2"> Organic Heritage  Cosmetics</h2>
+            <h2 className="oh-h2" id='h2-margin' > Organic Heritage  Cosmetics</h2>
 
-            <p className="oh-split__lede">
+            <p className="oh-split__lede" id='oh-pading'>
               Elevate your self-care ritual with formulations inspired by time-honored 
               beauty secrets. We blend pure botanical extracts with modern science 
               to create skincare that honors both your skin and the Earth.
@@ -259,7 +259,7 @@ function Home() {
             </a>
           </div>
 
-          <div className="oh-split__media oh-split__media--right">
+          <div className="oh-split__media oh-split__media--right"id='right'>
             <div className="oh-split__mediaInner oh-split__mediaInner--cosmetics" />
           </div>
         </div>
@@ -347,7 +347,7 @@ function Home() {
       <section className="oh-feat">
         <div className="oh-feat__container">
           <header className="oh-feat__header">
-            <div className="oh-eyebrow">
+            <div className="oh-eyebrow" id='fea'>
               <span className="oh-eyebrow__rule" />
               <span className="oh-eyebrow__text">Featured</span>
             </div>
@@ -363,7 +363,7 @@ function Home() {
                   <span className="oh-feat__productLabel">Karuppu Kavuni Rice</span>
                 </div>
                 <div className="oh-feat__product">
-                  <div className="oh-feat__productImg oh-feat__productImg--g2" />
+                  <div className="oh-feat__productImg oh-feat__productImg--g2"/>
                   <span className="oh-feat__productLabel">Millets</span>
                 </div>
                 <div className="oh-feat__product">
@@ -445,7 +445,7 @@ function Home() {
               <li><a href="#grains">About Us</a></li>
               <li><a href="#cosmetics">Grains</a></li>
               <li><a href="#apothecary">Cosmetics</a></li>
-              <li><a href="#gifts">contact</a></li>
+              <li><a href="#gifts">Contact</a></li>
             </ul>
           </div>
 
